@@ -1,0 +1,29 @@
+{
+  "name": "wombat-spinner",
+  "description": "A simple, single component library, providing a spinner component",
+  "version": "1.0.0",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/animations": ">= 6 < 9",
+    "@angular/common": ">= 6 < 9",
+    "@angular/core": ">= 6 < 9",
+    "rxjs": "^6.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidDecraene/wombat-spinner.git"
+  },
+  "main": "bundles/wombat-spinner.umd.js",
+  "module": "fesm5/wombat-spinner.js",
+  "es2015": "fesm2015/wombat-spinner.js",
+  "esm5": "esm5/wombat-spinner.js",
+  "esm2015": "esm2015/wombat-spinner.js",
+  "fesm5": "fesm5/wombat-spinner.js",
+  "fesm2015": "fesm2015/wombat-spinner.js",
+  "typings": "wombat-spinner.d.ts",
+  "metadata": "wombat-spinner.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

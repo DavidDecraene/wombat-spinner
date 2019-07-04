@@ -14,9 +14,8 @@
     height: 100%;
 
     .spin-panel {
-      width: 200px;
-      margin-left: auto;
-      margin-right: auto;
+      display: flex;
+      justify-content: center;
       margin-top: 25px;
     }
   }

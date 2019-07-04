@@ -1,0 +1,8 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+export { SpinnerModule } from './spinner.module';
+export { SpinnerDirective } from './spinner.directive';
+export { SpinnerOverlayComponent } from './spinner-overlay.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly93b21iYXQtc3Bpbm5lci8iLCJzb3VyY2VzIjpbImxpYi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLGtCQUFrQixDQUFDO0FBQ2pELE9BQU8sRUFBRSxnQkFBZ0IsRUFBRSxNQUFNLHFCQUFxQixDQUFDO0FBQ3ZELE9BQU8sRUFBRSx1QkFBdUIsRUFBRSxNQUFNLDZCQUE2QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IHsgU3Bpbm5lck1vZHVsZSB9IGZyb20gJy4vc3Bpbm5lci5tb2R1bGUnO1xuZXhwb3J0IHsgU3Bpbm5lckRpcmVjdGl2ZSB9IGZyb20gJy4vc3Bpbm5lci5kaXJlY3RpdmUnO1xuZXhwb3J0IHsgU3Bpbm5lck92ZXJsYXlDb21wb25lbnQgfSBmcm9tICcuL3NwaW5uZXItb3ZlcmxheS5jb21wb25lbnQnO1xuIl19
