@@ -1,0 +1,21 @@
+.example {
+  padding: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.spin-examples {
+  margin-top: 5px;
+  display: flex;
+
+  > w-spinner-overlay {
+    margin-right: 5px;
+  }
+}
+
+
+.spin-green {
+  .spin-panel {
+    color: #28a745!important;
+  }
+}

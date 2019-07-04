@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <div class="jumbotron">
+      <h1>wombat-spinner</h1>
+      <p>Version {{ version }}</p>
+  </div>
+
+  <div>
+    <p>The demo uses font-awesome 5 icons as spin icons.</p>
+    <label>
+      <input type="checkbox" [(ngModel)]="spinner1Active">Spinner1
+    </label>
+    <div class="spin-examples">
+      <div *wSpinner="spinner1Active" class="example">
+        <pre><![CDATA[<div *wSpinner="spinner1Active"></div> ]]></pre><br/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div *wSpinner="spinner1Active; options: { spinClass: 'spin-green' }" class="example">
+        <pre><![CDATA[<div *wSpinner="spinner1Active; options: { spinClass: 'spin-green' }"></div> ]]></pre> (.spin-green: a custom css style set by this demo)<br/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div *wSpinner="spinner1Active; options: { spinClass: 'spin-green', spinIcon: 'fas fa-recycle fa-5x fa-spin' }" class="example">
+        <pre><![CDATA[<div *wSpinner="spinner1Active; options: { spinClass: 'spin-green', spinIcon: 'fas fa-recycle fa-5x fa-spin' }"></div> ]]></pre> (.spin-green: a custom css style set by this demo)<br/>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+
+  </div>
+
+
+</div>

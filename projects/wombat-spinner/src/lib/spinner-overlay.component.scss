@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  .spinner-overlay {
+    position:absolute;
+    background-color: rgba(220, 220, 220, 0.3);
+    width: 100%;
+    min-height: 120px;
+    border-radius: 5px;
+    z-index: 500;
+    height: 100%;
+
+    .spin-panel {
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 25px;
+    }
+  }
+
+}

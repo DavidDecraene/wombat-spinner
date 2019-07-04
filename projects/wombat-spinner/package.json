@@ -1,0 +1,16 @@
+{
+  "name": "wombat-spinner",
+  "description": "A simple, single component library, providing a spinner component",
+  "version": "1.0.0",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/animations": ">= 6 < 9",
+    "@angular/common": ">= 6 < 9",
+    "@angular/core": ">= 6 < 9",
+    "rxjs": "^6.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidDecraene/wombat-spinner.git"
+  }
+}
